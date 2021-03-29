@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Search</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html {
+            font-size: 15px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+        ul,
+        ol {
+            list-style: none;
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p {
+            text-align: center;
+        }
+        
+        button {
+            border: none;
+        }
+        
+        a {
+            display: block;
+            text-decoration: none;
+        }
+        
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+        
+        .container {
+            max-width: 1024px;
+            margin: 0 auto;
+            padding: 2rem 0;
+        }
+        
+        .bg-grey {
+            background-color: rgb(192, 190, 190);
+            width: 100%;
+            height: 100px;
+            padding: 1.5rem;
+            margin-bottom: 0.2rem;
+        }
+        
+        .bg-aquamarine {
+            background-color: rgb(75, 226, 176);
+            float: left;
+            width: 40%;
+            padding: 1.5rem;
+        }
+        
+        .bg-aqua {
+            background-color: rgb(22, 214, 214);
+            width: 24.5%;
+            margin-left: 0.2rem;
+            padding: 1.1rem;
+        }
+        
+        .bg-teal {
+            background-color: rgb(14, 151, 151);
+            width: 35%;
+            float: right;
+            padding: 0.5rem;
+        }
+        
+        .inline-block {
+            display: inline-block;
+            height: 100px;
+        }
+        
+        .button-group a {
+            display: inline;
+        }
+        
+        button {
+            padding: 0.2rem 0.5rem;
+            margin-top: 0.3rem;
+        }
+        
+        input {
+            width: 30%;
+            padding: 0.1rem 1rem;
+        }
+        
+        .bg-teal input {
+            width: 60%;
+        }
+        
+        .container p:last-child {
+            margin-top: 1rem;
+            padding-left: 3.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <img src="./google.jpg" alt="Google Logo">
+
+        <div class="bg-grey">
+            <center>
+                <h5>Search the web using Google!</h5>
+                <input type="text">
+                <div class="button-group">
+                    <button href="#" class="btn btn-white">Google Search</button>
+                    <button href="#" class="btn btn-dark">I'm feeling lucky</button>
+                </div>
+            </center>
+        </div>
+
+        <div class="bg-aquamarine inline-block">
+            <center>
+                <p>Speacial Searches</p>
+                <a href="#">Stanford Search</a>
+                <a href="#">Linux Search</a>
+            </center>
+        </div>
+
+        <div class="bg-aqua inline-block">
+            <center>
+                <a href="#">Help!</a>
+                <a href="#">About Google!</a>
+                <a href="#">Company Info</a>
+                <a href="#">Google! Logos</a>
+            </center>
+        </div>
+
+        <div class="bg-teal inline-block">
+            <center>
+                <p>Get Google
+                    <br>
+                    <span>update monthly:</span>
+                </p>
+                <input type="text" palceholder="your e-mail">
+                <div class="button-group">
+                    <button href="#" class="btn btn-white">Subscribe</button>
+                    <a href="#" class="btn btn-dark">Archive</a>
+                </div>
+            </center>
+        </div>
+
+        <p>Copyright ©1998 Google Inc.</p>
+    </div>
+    </div>
+    </div>
+</body>
+
+</html>
