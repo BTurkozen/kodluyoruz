@@ -28,7 +28,7 @@ Pull Request kabul edilir. Büyük değişiklikler için, lütfen önce neyi de�
 
 ## Project Image
 
-![Project Image]()
+![Project Image](https://github.com/BTurkozen/kodluyoruz/blob/master/Project%20Image.png?raw=true)
 
 ---
 
